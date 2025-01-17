@@ -1,0 +1,131 @@
+/* navbar */
+.navbar {
+  background-color: #9dcbce;
+}
+.navbar .navbar-brand,
+.navbar .nav-link {
+  font-weight: 600;
+  color: #28626e;
+}
+/*  */
+
+.signin-form label,
+.signup-form label {
+  font-weight: 600;
+}
+.signin-form input,
+.signup-form input {
+  display: block;
+  text-align: left;
+  width: 100%;
+  border: 2px solid #bea58e;
+}
+.signin-form .header,
+.signup-form .header {
+  padding: 0.5rem 1rem;
+  border-bottom: 2px solid #bea58e;
+  background-color: #f3d1b4;
+}
+.signin-form .card,
+.signup-form .card {
+  border: 2px solid #c3b9a7;
+}
+
+.circles .circle {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  margin: 0 4px;
+}
+.circles .circle:nth-child(1) {
+  background-color: #8cd591;
+}
+.circles .circle:nth-child(2) {
+  background-color: #a5b6d9;
+}
+.circles .circle:nth-child(3) {
+  background-color: #f1b09e;
+}
+
+.signin-form .card .login-btn,
+.signup-form .card .login-btn {
+  font-weight: 600;
+  color: #5b3108;
+  background-color: #e9b384 !important;
+  border: none !important;
+}
+
+.signin-form .card .register-btn,
+.signup-form .card .register-btn {
+  font-weight: 600;
+  color: #186c78;
+  background-color: #a2ccd2 !important;
+  border: none !important;
+}
+
+.form-control.is-invalid,
+.was-validated .form-control:invalid {
+  border-color: #bea58e !important;
+  box-shadow: none !important;
+}
+
+/* Home */
+.home .notes {
+  height: 200px;
+  border: 2px solid #c3b9a7;
+}
+.home .notes .card-title {
+  padding: 0.5rem 1rem;
+  border-bottom: 2px solid #bea58e;
+  background-color: #f3d1b4;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.home .notes .card-title h2 {
+  font-size: 1rem;
+}
+.home .notes .card-text {
+  padding: 0.5rem 1rem;
+  flex: 1;
+  display: -webkit-box;               /* Required for line-clamp to work */
+  -webkit-line-clamp: 3;              /* Limit the text to 3 lines */
+  -webkit-box-orient: vertical;       /* Specifies the box orientation */
+  overflow: hidden;                   /* Hides the overflowing text */
+  text-overflow: ellipsis; 
+}
+
+.home .notes .card-footer {
+  border: none;
+  background: none !important;
+  margin: 0;
+}
+
+/* modal */
+.modal-dialog .modal-content {
+  background-color: #f4f1df;
+}
+.modal-dialog .modal-content .modal-header {
+  background-color: #f3d1b4;
+  padding: 0.5rem 1rem;
+  border-bottom: 2px solid #bea58e;
+}
+.modal-dialog .modal-content .modal-header .modal-title {
+  font-size: 1rem;
+}
+.modal-dialog .modal-content .modal-body input, .modal-dialog .modal-content .modal-body textarea {
+  display: block;
+  text-align: left;
+  width: 100%;
+  border: 2px solid #bea58e;
+}
+.modal-dialog .modal-content .modal-footer .btn{
+  font-weight: 600;
+  border: none !important;
+  padding: 6px 20px;
+}
+.modal-dialog .modal-content .modal-footer .btn.success{
+  background-color: green;
+}
+.modal-dialog .modal-content .modal-footer .btn.cancel{
+  background-color: red;
+}
